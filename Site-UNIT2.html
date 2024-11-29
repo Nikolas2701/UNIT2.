@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structura Rețelei Personale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Tamas Nikolas Claudiu</h1>
+    <a href="mailto:tamas.st.nikolas@student.utcluj.ro">tamas.st.nikolas@student.utcluj.ro</a>
+</header>
+
+<main>
+    <section id="specificatii-tehnice">
+        <h2>Specificații tehnice ale stației principale de lucru</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Denumire Componentă</th>
+                    <th>Producător</th>
+                    <th>Parametri</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Procesor</td>
+                    <td>AMD Ryzen</td>
+                    <td>7 5700X</td>
+                </tr>
+                <tr>
+                    <td>Memorie RAM</td>
+                    <td>HyperBeast</td>
+                    <td>32 GB</td>
+                </tr>
+                <tr>
+                    <td>Stocare</td>
+                    <td>Nvme M.2</td>
+                    <td>SSD 250GB</td>
+                </tr>
+                <tr>
+                    <td>Stocare</td>
+                    <td>Nvme Sata-III</td>
+                    <td>SSD 480GB</td>
+                </tr>
+                <tr>
+                    <td>Sistem de operare</td>
+                    <td>Microsoft</td>
+                    <td>Windows 11</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="structura-retea">
+        <h2>Structura rețelei personale și accesul la internet</h2>
+        <img src="D:\UNIT2\Imagini\retea-personala.png" alt="Structura rețelei personale">
+        <ul>
+            <li>Adresa MAC: 42-AE-30-64-B9-90</li>
+            <li>Adresa IP: 192.168.1.131</li>
+            <li>Debit la download: 900 Mbps</li>
+            <li>Debit la upload: 800 Mbps</li>
+        </ul>
+    </section>
+
+    <section id="utilizare-resurse">
+        <h2>Utilizarea resurselor (slideshow)</h2>
+        <section id="monitorizare-resurse">
+            <h2>Monitorizare resurse</h2>
+            <div id="static-images" style="display: none;">
+                <img src="D:\UNIT2\Imagini\DISK.png" alt="Dispozitiv 1">
+                <img src="D:\UNIT2\Imagini\memorie.png" alt="Dispozitiv 2">
+                <img src="D:\UNIT2\Imagini\procesor.png" alt="Dispozitiv 3">
+            </div>
+            <div class="slideshow-container" id="slideshow" style="display: none;">
+                <div class="slide">
+                    <img src="D:\UNIT2\Imagini\DISK.png" alt="Dispozitiv 1">
+                </div>
+                <div class="slide">
+                    <img src="D:\UNIT2\Imagini\memorie.png" alt="Dispozitiv 2">
+                </div>
+                <div class="slide">
+                    <img src="D:\UNIT2\Imagini\procesor.png" alt="Dispozitiv 3">
+                </div>
+            </div>
+            <div class="dots">
+                <span class="dot" onclick="showSlide(0)"></span>
+                <span class="dot" onclick="showSlide(1)"></span>
+                <span class="dot" onclick="showSlide(2)"></span>
+            </div>
+        </section>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Tamas Nikolas Claudiu. Toate drepturile rezervate.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

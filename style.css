@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #fbe3cf;
+    border: 3px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #ff6200;
+    font-size: 2rem;
+    margin: 0;
+}
+
+header a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px;
+}
+
+h2 {
+    color: #c94e00;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+    border: 1px solid #c94e00;
+    padding: 15px;
+    background-color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #c94e00;
+    text-align: left;
+    padding: 8px;
+}
+
+table th {
+    background-color: #ffe4d1;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #e0f7fa;
+    text-align: center;
+}
+
+.slideshow-container img {
+    width: 100%;
+    display: block;
+}
+
+.dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot.active {
+    background-color: #717171;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+}
